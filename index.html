@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../icon.svg">
+        
+</head>
+
+<body>
+
+    <header>
+        <a style="pointer-events: none;" href="#"><img src="../logo.svg" class="logo" alt="Company"></a>
+		<a href="../../Thevindu/html sem 2/Movie sitte.html" class="active">Home</a>
+		<a href="../../Thevindu/html sem 2/Comments.html" >Comments</a>
+		<a href="../../Anuda/Buy Product/buyproduct.html">Shop</a>
+		<a href="#">Quiz</a>
+        <a href="../../Dasindu/sitemap.html">Site Map</a>
+        <a href="../student-details/index.html">About Us</a>
+		<a href="../../Dasindu/new.html">Gallery</a>
+	</header>
+    
+    <div id="app">
+        
+        <main>
+            <div class="container">
+        
+                <div class="start-screen" >
+                    <h1>Welcome to the Quiz Game</h1>
+	            	<button id="start">Start Quiz</button>
+                    
+                </div>
+                <div class="quiz-screen hidden">
+                    <div class="topbar">
+                            
+                        <div id="timer"  >Time left:</div>
+	            	    <div id="question-count" >Question:</div>
+        
+                    </div>
+                   
+	            	<div id="question"></div>
+	            	<div id="choices"></div>
+	            	
+                    <div class="navigation">
+                        
+                        <button id="submit">submit</button> 
+                        <button id="next">next</button>
+                    </div>
+	            </div>
+                <div class = "performance hidden">
+                    <h1 style="margin-bottom: 2rem;">Congratulations, Quiz Completed!</h1>
+                    <p id="score"></p>
+                    <p id="wrong"></p>
+                    <p id="grade"></p>
+                    <p id="time"></p>
+                    <p id="feedback"></p>
+                    <button id="restart">restart</button>
+            
+                </div>
+                <div class="overlay hidden"></div>   
+            </div>
+        </main>
+    
+        <footer>
+            
+            <script src="script.js"></script>
+            <a href="../pageditor/index.html" class="pd">Page Developer</a>
+            
+        </footer>
+    </div>   
+   
+          
+
+</body>
+</html>
